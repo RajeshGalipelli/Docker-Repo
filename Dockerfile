@@ -1,5 +1,5 @@
 FROM nginx
-MAINTAINER
-LABEL
-EXPOSE
+MAINTAINER Author Rajesh Galipelli
+LABEL This is My Image-1 
+EXPOSE 80
 COPY index.html /usr/share/nginx/html
